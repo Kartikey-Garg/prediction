@@ -2,7 +2,7 @@
 import numpy as np
 import pickle
 from flask import Flask, request, render_template
-model = pickle.load(open('C:/Users/Kartikey Garg/Documents/Resources/HIV Dangue All Diseses/Datasets/archive/model.pkl', 'rb')) 
+model = pickle.load(open('model.pkl', 'rb')) 
 app = Flask(__name__)
 @app.route('/')
 def home():
