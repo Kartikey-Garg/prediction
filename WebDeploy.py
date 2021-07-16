@@ -25,4 +25,3 @@ def predict():
                                result = 'The patient is likely to have disease!')
 if __name__ == '__main__':
     app.run()
-web: gunicorn app:app
